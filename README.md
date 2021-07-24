@@ -4,7 +4,7 @@
 
 ## 1. Behavior recognition model
 
-We use TSM, which is a popular method in behavior recognition. [The paper link](https://arxiv.org/abs/1811.08383),  The original [code link](https://github.com/mit-han-lab/temporal-shift-module)
+I use TSM, which is a popular method in behavior recognition. [The paper link](https://arxiv.org/abs/1811.08383),  The original [code link](https://github.com/mit-han-lab/temporal-shift-module)
 
 Note that TSM has two versions, One is offline version and another is online verson. I implement the online version.
 
