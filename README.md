@@ -6,7 +6,7 @@
 
 We use TSM, which is a popular method in behavior recognition. [The paper link](https://arxiv.org/abs/1811.08383),  The original [code link](https://github.com/mit-han-lab/temporal-shift-module)
 
-Note that TSM has two version, One is offline version and another is online verson. I implement the online version.
+Note that TSM has two versions, One is offline version and another is online verson. I implement the online version.
 
 ## 2. My work
 
@@ -46,4 +46,4 @@ In tests,TensorRT model is four times faster than the Torch model
 
 ## tool and ops
 
-some useful packge
+some useful packges
