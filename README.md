@@ -29,3 +29,21 @@ For real-time tasks, if a person exits the camera, that person's historical info
 **3.We use TensorRT to accelerate the model**
 
 In tests,TensorRT model is four times faster than the Torch model
+
+# Documents Description
+
+### ActionRecognition
+
+1.mobilenet_v2_tsm.py: In this script, we define the TSM online model，which use MobileNetV2 as backbone.
+
+2.model.py: Some auxiliary tools, including data processing. In this script，Buffer is the hashtable saving historical information.
+
+3.myTransform.py: In this script, you can transfer torch model to onnx，and then you can use TensorRT to get an engine.
+
+4.trt_inference.py:  Encapsulation of inference algorithm.
+
+5.main.py: Online behavior recognition algorithm main program
+
+## tool and ops
+
+some useful packge
