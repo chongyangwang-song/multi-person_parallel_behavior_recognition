@@ -1,6 +1,6 @@
 # Multi-person parallel behavior recognition
 
-![](https://github.com/chongyangwang-song/multi-person_parallel_behavior_recognition/blob/main/image/%E8%84%9A%E8%B8%A2%E5%88%BA%E6%9D%80%E8%BE%93%E5%87%BA%5B00-00-09--00-00-11%5D.gif)
+![Demo](https://github.com/chongyangwang-song/multi-person_parallel_behavior_recognition/blob/main/image/%E8%84%9A%E8%B8%A2%E5%88%BA%E6%9D%80%E8%BE%93%E5%87%BA%5B00-00-09--00-00-11%5D.gif)
 
 ## 1. Behavior recognition model
 
