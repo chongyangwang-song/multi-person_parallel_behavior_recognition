@@ -1,6 +1,6 @@
 # Multi-person parallel behavior recognition
 
-
+![](https://github.com/chongyangwang-song/multi-person_parallel_behavior_recognition/blob/main/image/%E8%84%9A%E8%B8%A2%E5%88%BA%E6%9D%80%E8%BE%93%E5%87%BA%5B00-00-09--00-00-11%5D.gif)
 
 ## 1. Behavior recognition model
 
@@ -14,7 +14,7 @@ Note that TSM has two version, One is offline version and another is online vers
 
 The original code is just single scene inference,  My work implements multi-person parallel inference. For TSM online version， it works like RNN，The current frame inference relies on the current frame information and historical information.  For multi-person behavior recognition, the difficulty lies in how to find the historical information of the corresponding person. To do this, I designed a history hash table to get the history information based on the person's ID.
 
-![](https://github.com/chongyangwang-song/multi-person_parallel_behavior_recognition/blob/main/image/%E8%84%9A%E8%B8%A2%E5%88%BA%E6%9D%80%E8%BE%93%E5%87%BA%5B00-00-09--00-00-11%5D.gif)
+![](https://github.com/chongyangwang-song/multi-person_parallel_behavior_recognition/blob/main/image/TSMonline.png)
 
 You can use Yolo to get the bounding box of the person，then you can get the RGB information of a person from a original scene.
 
