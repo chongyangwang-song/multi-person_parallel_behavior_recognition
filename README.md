@@ -16,7 +16,7 @@ The original code is just single scene inference,  My work implements multi-pers
 
 ![picture](https://github.com/chongyangwang-song/multi-person_parallel_behavior_recognition/blob/main/image/TSMonline.png)
 
-You can use Yolo to get the bounding box of the person，then you can get the RGB information of a person from a original scene.
+You can use Yolo to get the bounding box of the person，then you can get the RGB information of a person from the original scene.
 
 You can use SORT to track preson, then you can get the ID information.
 
